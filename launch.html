@@ -12,11 +12,10 @@
 	<script>
 		FHIR.oauth2.authorize({
       'client_id': '11c53e00-6d5c-4a40-8a3f-ccc196fa1382',
-      'scope':  'PATIENT.READ, PATIENT.SEARCH,APPOINTMENT.FIND. OBSERVATION.READ, OBSERVATION.SEARCH',
-      'redirect_uri': 'https://anandkt1.github.io/rsaepic/app.html', 
-	  'response_type':'code',
-	  'state':'1234'
-	  
+	  'redirect_uri': 'https://anandkt1.github.io/rsaepic/app.html', 
+      'response_type':'code',
+	  'state':'1234', 
+	  'scope':'PATIENT.READ, PATIENT.SEARCH,APPOINTMENT.FIND. OBSERVATION.READ, OBSERVATION.SEARCH'
     });
 	</script>
 
